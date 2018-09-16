@@ -1,0 +1,15 @@
+{
+  "name": "graphql-example-server",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.1.0",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
