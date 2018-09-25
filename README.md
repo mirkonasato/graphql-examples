@@ -2,7 +2,7 @@
 
 This repository contains some GraphQL examples in JavaScript. It uses Apollo Server on the backend, React and Apollo Client on the frontend.
 
-The `master` branch contains barebone client and server projects. Each other branch extends the initial setup to demonstrate a specific piece of functionality.
+The `custom-scalar` branch shows how to write a custom scalar type to represent dates as ISO-8601 strings in the GraphQL schema, while treating them as JavaScript Date objects internally in the server code.
 
 ## Setup
 

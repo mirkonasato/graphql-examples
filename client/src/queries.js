@@ -10,13 +10,13 @@ const client = new ApolloClient({
   })
 });
 
-export async function getMessage() {
-  const {data: {message}} = await client.query({
+export async function getTime() {
+  const {data: {time}} = await client.query({
     query: gql`
-      query MessageQuery {
-        message
+      query TimeQuery {
+        time
       }
     `
   });
-  return message;
+  return new Date(time);
 }
